@@ -12,6 +12,7 @@ un comentario
 en varias líneas
 */
 
+//console.log es un método para imprimir en consola
 console.log("¡Hola, JavaScript!")
 console.log('¡Hola, JavaScript!')
 console.log(`¡Hola, JavaScript!`)
