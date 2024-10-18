@@ -20,6 +20,10 @@ var myVar = "Var ya no se usa"
 let myNumber = 10  
 let myText = "Hola JavaScript"
 let myBoolean = true
+let myDouble = 3.10
+let myNull = null
+let myUndefined
+let myBigNumber = 223193129381n
 const pi = 3.14  //no mutable
 
 // 4. Imprime por consola el valor de todas las variables
@@ -27,6 +31,10 @@ const pi = 3.14  //no mutable
 console.log(myNumber);
 console.log(myText);
 console.log(myBoolean);
+console.log(myDouble);
+console.log(myNull);
+console.log(myUndefined);
+console.log(myBigNumber);
 console.log(pi);
 
 // 5. Imprime por consola el tipo de todas las variables
@@ -35,6 +43,10 @@ console.log(typeof myVar);
 console.log(typeof myNumber);
 console.log(typeof myText);
 console.log(typeof myBoolean);
+console.log(typeof myDouble);
+console.log(typeof myNull);
+console.log(typeof myUndefined);
+console.log(typeof myBigNumber);
 console.log(typeof pi);
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
